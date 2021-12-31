@@ -111,7 +111,7 @@ function keyReleased() {
 function showArrows(index, arrows) {
   arrows[index].display();
  if(
-   arrow[index].body.position.x>width ||arrow[index].body.position.y>height)
+   arrows[index].body.position.x>width ||arrows[index].body.position.y>height)
    {
      if(!arrows[index].isRemoved) {
        arrows[index].remove(index,arrows);
